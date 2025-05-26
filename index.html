@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panorama Migrante</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="logo 1.png" alt="Panorama Migrante Logo" class="logo" />
+    <nav>
+      <a href="#noticias" class="nav-link" data-key="nav_noticias">Noticias</a>
+      <a href="#videos" class="nav-link" data-key="nav_videos">Videos</a>
+      <a href="#blog" class="nav-link" data-key="nav_blog">Blog</a>
+      <a href="#leyes" class="nav-link" data-key="nav_leyes">Leyes</a>
+      <a href="#contacto" class="nav-link" data-key="nav_contacto">Contacto</a>
+    </nav>
+    <select class="lang-selector" id="language-select">
+      <option value="es">Español</option>
+      <option value="en">English</option>
+      <option value="fr">Français</option>
+    </select>
+  </header>
+
+  <div class="hero">
+    <img src="logo 1.png" alt="Panorama Migrante Logo Grande" class="hero-logo" />
+    <p data-key="hero_subtitle">Noticias, leyes, entrevistas y realidades de la migración en España</p>
+  </div>
+
+  <main>
+    <section id="noticias">
+      <h2 data-key="section_noticias">Últimas Noticias</h2>
+      <p data-key="contenido_noticias">Aquí aparecerán las últimas noticias relacionadas con migrantes en España.</p>
+    </section>
+
+    <section id="videos">
+      <h2 data-key="section_videos">Últimos Videos</h2>
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </section>
+
+    <section id="blog">
+      <h2 data-key="section_blog">Blog</h2>
+      <div class="blog-entry">
+        <h3 data-key="blog_1_title">Historia de Ana desde Venezuela</h3>
+        <p data-key="blog_1_text">Ana llegó a España en 2019 buscando mejores oportunidades para su familia...</p>
+      </div>
+    </section>
+
+    <section id="leyes">
+      <h2 data-key="section_leyes">Leyes y Derechos</h2>
+      <p data-key="contenido_leyes">Información actualizada sobre leyes de extranjería, regularización y recursos legales.</p>
+    </section>
+
+    <section id="contacto">
+      <h2 data-key="section_contacto">Contacto</h2>
+      <p data-key="contacto_texto">¿Quieres compartir tu historia o colaborar? Escríbenos a <a href="mailto:contacto@panoramamigrante.com">contacto@panoramamigrante.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Panorama Migrante. <span data-key="footer_derechos">Todos los derechos reservados.</span></p>
+    <div class="social-links">
+    <a href="https://facebook.com/panoramamigrante" target="_blank">Facebook</a> |
+    <a href="https://instagram.com/panoramamigrante" target="_blank">Instagram</a> |
+    <a href="https://youtube.com/@panoramamigrante" target="_blank">YouTube</a>
+  </div>
+</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
